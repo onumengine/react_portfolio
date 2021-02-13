@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainArticle = () =>
     <article>
-        <h1>Skills and Portfolio</h1>
+        <h2>Skills and Portfolio</h2>
         <p>
             Over the years, constantly buildinng new things has given me the opportunity
             to pick up amazing skills I use to build beautiful software. They include:

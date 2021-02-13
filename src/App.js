@@ -4,6 +4,7 @@ import TabBar from './views/molecules/TabBar.js';
 import WelcomeBanner from './views/molecules/WelcomeBanner';
 import './images/undraw_1.png'
 import MainArticle from './views/molecules/MainArticle';
+import ProjectsHeading from './views/molecules/ProjectsHeading';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <WelcomeBanner/>
       <WelcomeImage/>
       <MainArticle/>
+      <ProjectsHeading/>
     </div>
   );
 }
