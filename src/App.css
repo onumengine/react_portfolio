@@ -47,11 +47,21 @@
 
 article {
   text-align: start;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 button {
   margin-left: 4px;
   margin-right: 4px;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
 }
 
 #contact-div {
@@ -66,6 +76,7 @@ button {
   font-size: inherit;
   background-color: inherit;
   padding: 8px 8px;
+  color: #374151;
 }
 
 footer {
@@ -76,16 +87,19 @@ nav {
   display: flex;
   justify-content: flex-end;
   padding: 16px 16px;
+  background-color: #FFFFFF;
 }
 
 #projectsHeading {
   text-align: start;
+  padding: 40px;
 }
 
 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 40px;
 }
 
 #send-email-button {
@@ -104,4 +118,5 @@ nav {
   padding: 4px 8px;
   font-size: inherit;
   background-color: inherit;
+  color: #374151;
 }
