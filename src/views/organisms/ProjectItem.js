@@ -3,9 +3,9 @@ import WelcomeImage from '../atoms/WelcomeImage'
 import ProjectDescription from '../molecules/ProjectDescription'
 
 const ProjectItem = () => 
-    <React.Fragment>
+    <div className="row">
         <ProjectDescription/>
         <WelcomeImage/>
-    </React.Fragment>
+    </div>
 
 export default ProjectItem
