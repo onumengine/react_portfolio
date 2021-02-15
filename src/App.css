@@ -24,6 +24,10 @@
   color: white;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +39,69 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+article {
+  text-align: start;
+}
+
+button {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+#contact-div {
+  text-align: start;
+  padding: 40px;
+}
+
+.flat-button {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  font-size: inherit;
+  background-color: inherit;
+  padding: 8px 8px;
+}
+
+footer {
+  background-color: #E5E7EB;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 16px;
+}
+
+#projectsHeading {
+  text-align: start;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#send-email-button {
+  margin: 20px 0px;
+}
+
+#site-credits {
+  background-color: #9CA3AF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.text-button {
+  border: none;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: inherit;
+  background-color: inherit;
 }
