@@ -1,9 +1,9 @@
 import React from 'react'
 
 const ProjectsHeading = () =>
-    <React.Fragment>
+    <div id="projectsHeading">
         <h1>Projects</h1>
         <p>Here are some of the projects I've built</p>
-    </React.Fragment>
+    </div>
 
 export default ProjectsHeading

@@ -1,12 +1,12 @@
 import React from 'react'
 
 const ProjectDescription = ({name, description, buildTools}) =>
-    <React.Fragment>
+    <div>
         <h3>{name}</h3>
         <p>{description}</p>
         <br></br>
         <p>{buildTools}</p>
-    </React.Fragment>
+    </div>
 
 ProjectDescription.defaultProps = {
     name: "Project",
